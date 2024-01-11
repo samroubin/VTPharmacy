@@ -2,49 +2,47 @@ If you use this template for research, please [cite it](template_reference.bib):
 > Kedron, P., & Holler, J. (2023). Template for Reproducible and Replicable Research in Human-Environment and Geographical Sciences. https://doi.org/10.17605/OSF.IO/W29MQ
 
 # Title of Study
+A Spatio-Temporal Accessibility Analysis of Pharmacy Care in Vermont, USA
 
 ## Contributors
 
-- First Name Last Name\*, email address, @githubname, ORCID link, affiliated institution(s)
-- First Name Last Name, email address, @githubname, ORCID link, affiliated institution(s)
+- Sam Roubin\*, sroubin@middlebury.edu, @samroubin, https://orcid.org/0009-0005-5490-3744, Middlebury College
+- Joseph Holler, jholler@middlebury.edu, @josephholler, https://orcid.org/0000-0002-2381-2699, Middlebury College
 
 \* Corresponding author and creator
 
 ## Abstract
 
-Write a brief abstract about your research project.
-If the project is a reproduction or replication study, include the full citation with a statement
-This study is a *reproduction/replication* of:
+Pharmacy care is a fundamental aspect of primary healthcare and is gaining greater recognition in the healthcare landscape. Recent research has underscored the importance of pharmacy access in primary care, as pharmacies are visited at higher rates than primary care providers and are particularly valuable for reaching rural populations. We aim to measure spatiotemporal variation in access to pharmacy care across the state of Vermont using the enhanced 2-step floating catchment area (E2SFCA) method. Specifically, we seek to identify areas that have particularly limited access to pharmacies. This research is temporally explicit, as it will analyze variation in accessibility at specific times of the day and days of the week. Such temporally granular data has benefits for the research since it provides information on how spatial accessibility varies at irregular times, improving our understanding of when pharmacy care is particularly limited for certain populations. Results will be depicted as a series of spatial accessibility maps, covering diverse temporal extents to capture variations in pharmacy working hours. Previous studies have used the two step floating catchment area (2SFCA) and the E2SFCA method to measure spatial accessibility of pharmacy care across geographic scales and regions. To our knowledge, this is the first temporally-explicit study of pharmacy care, and the first E2SFCA study of pharmacy accessibility in Vermont. The results of this study are of interest to service providers and Vermont state public health officials and may have important implications for public health planning in the state. 
 
-> citation to prior study
-
-A graphical abstract of the study could also be included as an image here.
+This study adapts and extends the methodology used in Kang et al.'s (2020) "Rapidly measuring spatial accessibility of COVID-19 healthcare resources: a case study of Illinois, USA" to measure spatial accessibility of pharmacy care across Vermont. 
 
 ## Study Metadata
 
-- `Key words`: Comma-separated list of keywords (tags) for searchability. Geographers often use one or two keywords each for: theory, geographic context, and methods.
-- `Subject`: select from the [BePress Taxonomy](http://digitalcommons.bepress.com/cgi/viewcontent.cgi?article=1008&context=reference)
-- `Date created`: date when project was started
-- `Date modified`: date of most recent revision
-- `Spatial Coverage`: Specify the geographic extent of your study. This may be a place name and link to a feature in a gazetteer like GeoNames or OpenStreetMap, or a well known text (WKT) representation of a bounding box.
-- `Spatial Resolution`: Specify the spatial resolution as a scale factor, description of the level of detail of each unit of observation (including administrative level of administrative areas), and/or or distance of a raster GRID size
-- `Spatial Reference System`: Specify the geographic or projected coordinate system for the study
-- `Temporal Coverage`: Specify the temporal extent of your study---i.e. the range of time represented by the data observations.
-- `Temporal Resolution`: Specify the temporal resolution of your study---i.e. the duration of time for which each observation represents or the revisit period for repeated observations
-- `Funding Name`: name of funding for the project
-- `Funding Title`: title of project grant
-- `Award info URI`: web address for award information
-- `Award number`: award number
+- `Key words`: Pharmacy, spatial accessibility, pharmacy deserts, Vermont, E2FSCA. 
+- `Subject`: Medicine and Health Sciences: Public Health: Health Services Research OR Social and Behavioral Sciences: Geography: Spatial Science
+- `Date created`: 9/18/2023
+- `Date modified`: 1/11/2024
+- `Spatial Coverage`: The state of Vermont and areas within 10-miles of the Vermont border (MA, NY, NH). Canada is excluded. 
+- `Spatial Resolution`: Vermont municipalities. These units are roughly the same size as zipcodes, but they represent politically meaningful geographic units. 
+- `Spatial Reference System`: EPSG 6589  
+- `Temporal Coverage`: Data was collected in October, November, and December of 2023. The temporal extent is not explicitly determined. Pharmacies have been asked to provide their staffing levels over the period of roughly a month. The results from the study will be theoretically based on a single point in time in the fall of 2023. This is a one time measuremement, and the study does not investigate change over time. 
+- `Temporal Resolution`: The temporal resoution of this study varies. Final maps will represent periods of a couple of hours of a week to whole days, or an entire work week. Spatial access will be assessed and compared across specific hours of the days, between weekdays and Saturdays, weekdays and Sundays, and other combinations of these temporal units. 
+- `Funding Name`: National Science Foundation Directorate for Social, Behavioral and Economic Sciences
+- `Funding Title`: Transforming theory-building and STEM education through reproductions and replications in the geographical sciences
+- `Award info URI`: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2049837
+- `Award number`: BCS-2049837
 
 ## Related to
 
-- `OSF Project`:
+- `OSF Project`: Roubin, S., & Holler, J. (2024, January 11). A Spatio-Temporal Accessibility Analysis of Pharmacy Care in Vermont, USA. https://doi.org/10.17605/OSF.IO/BCQ9S
 - `Pre-analysis Registration`:
 - `Post-analysis Report Registration`:
 - `Preprint`:
 - `Conference Presentation`:
-- `Publication`:
-- `Prior Study`:
+- `Publication`: 
+- `Prior Study`: Kang, J.-Y., Michels, A., Lyu, F., Wang, S., Agbodo, N., Freeman, V. L., & Wang, S. (2020). Rapidly measuring spatial accessibility of COVID-19 healthcare resources: A case study of Illinois, USA. International Journal of Health Geographics, 19(1), 36. https://doi.org/10.1186/s12942-020-00229-x AND Holler, J., Burt, D., Udoh, K., & Kedron, P. (2023, November 2). Reproduction and Reanalysis of Kang et al 2020 Spatial Accessibility of COVID-19 Health Care Resources. https://doi.org/10.17605/OSF.IO/N92V3
+
 - `...`:
 
 ## Metadata for access
