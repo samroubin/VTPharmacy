@@ -7,6 +7,7 @@ If you use this template for research, please [cite it](template_reference.bib):
 
 - Sam Roubin\*, sroubin@middlebury.edu, @samroubin, https://orcid.org/0009-0005-5490-3744, Middlebury College
 - Joseph Holler, jholler@middlebury.edu, @josephholler, https://orcid.org/0000-0002-2381-2699, Middlebury College
+- Peter Kedron, peterkedron@ucsb.edu, @Peter-Kedron, https://orcid.org/0000-0002-1093-3416, University of California, Santa Barbara
 
 \* Corresponding author and creator
 
