@@ -1,7 +1,5 @@
 path,name,purpose
-environment,readme.md,set up computational environment
-code,script1.R,download and preprocess data
-protocol,survey_irb.pdf,Institutional review board protocol for survey sampling and instrument
-protocol,mapworkshop.pdf,participatory mapping workshop protocol
-code,script2.R,run analysis
-code,script3.R,generate visualizations for results
+environment,readme.md,description of computational notebook
+protocol,01_irb_protocol.pdf,Institutional review board protocol for pharmacy hours and staffing
+protocol,survey_instrument,Survey instrument for pharmacy hours and staffing
+code,01_Pharmacy_Accessibility.ipynb,computational notebook for research analysis and report
