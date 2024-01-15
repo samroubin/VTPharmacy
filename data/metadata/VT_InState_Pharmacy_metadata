@@ -2,7 +2,8 @@
 - `Abstract`: 2023 list of active retail pharmacies in Vermont. 
 - `Spatial Coverage`: Vermont state
 - `Date`: Appears to be last updated in the summer of 2023
-- `Lineage`: We used the Vermont Secretary of State Office of Professional Regulation feature to Find a Professional, available at this URL: https://sos.vermont.gov/opr/find-a-professional/
+- `Lineage`: Data is maintained by Vermont Office of Professional Regulation (OPR). Data is based on professional licenses. 
+- `Distribution`: We used the Vermont Secretary of State Office of Professional Regulation feature to Find a Professional, available at this URL: https://sos.vermont.gov/opr/find-a-professional/
 From there, we used a Profession Roster Download query with the following parameters:
     - Profession: Pharmacy
     - Profession type: Instate Pharmacy
