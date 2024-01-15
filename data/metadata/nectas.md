@@ -5,12 +5,14 @@
 - `Spatial Reference System`: not applicable
 - `Temporal Coverage`: March 2020
 - `Temporal Resolution`: About one to three years. The previous series was published in 2018.
-- `Lineage`: See methodological details on NECTA_WallMap_Mar2020.pdf
+- `Lineage`:
+   - Manually cleaned public/raw/population/list3_2020.xlsx to remove header rows and unused columns, and to rename column names for data analysis.
+   - See methodological details on NECTA_WallMap_Mar2020.pdf for creation of list3_2020.xlsx
 - `Distribution`: U.S. Census, via VTP site https://www2.census.gov/programs-surveys/metro-micro/geographies/reference-files/2020/delineation-files/
 - `Constraints`: Public Domain, no constraints
 - `Data Quality`: Unknown
 - `Variables`:
-  - `Label`: Metropolitan/Micropolitan NECTA
+  - `Label`: necta
     - `Alias`: Metropolitan/Micropolitan NECTA
     - `Definition`: County subdivisions (towns) in New England are categorized as metropolitan if they have a "high degree of economic and social integration" with an urban core with a population of 50,000 or greater. County subdivisions are categorized as micropolitan if they have a high degree of economic and social integration with an urban core with a population of 10,000 or greater. Other rural county subdivisions are not listed in this data product.
     - `Type`: Text string
@@ -18,7 +20,15 @@
     - `Domain`: "Micropolitan NECTA" or "Metropolitan NECTA"
     - `Missing Data Value(s)`: Rural county subdivisions (i.e. not Micropolitan or Metropolitan) are not listed in the spreadsheet at all.
     - `Missing Data Frequency`: Unknown
-  - `Label`: FIPS State Code
+  - `Label`: subdivision_name
+    - `Alias`: City or Town Name
+    - `Definition`: County or town name
+    - `Type`: string
+    - `Accuracy`: n/a
+    - `Domain`: Unknown
+    - `Missing Data Value(s)`: none
+    - `Missing Data Frequency`: n/a
+  - `Label`: fips_state
     - `Alias`: FIPS State Code
     - `Definition`: Unique code for each state.
     - `Type`: string of two numbers
@@ -26,7 +36,7 @@
     - `Domain`: Unique code for each state, where "50" represents Vermont
     - `Missing Data Value(s)`: none
     - `Missing Data Frequency`: n/a
-  - `Label`: FIPS County Code
+  - `Label`: fips_county
     - `Alias`: FIPS State Code
     - `Definition`: Unique code for each county within a state
     - `Type`: string of three numbers
@@ -34,7 +44,7 @@
     - `Domain`: Codes range from 001 to 027 in Vermont
     - `Missing Data Value(s)`: none
     - `Missing Data Frequency`: n/a
-  - `Label`: FIPS County Subdivision Code
+  - `Label`: fips_subdivision
     - `Alias`: FIPS County Subdivision Code
     - `Definition`: Short description or definition of the variable. Include measurement units in description.
     - `Type`: string of five numbers
