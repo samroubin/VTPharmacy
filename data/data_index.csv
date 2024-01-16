@@ -1,4 +1,4 @@
 path,name,metadata,description
 raw/public/population/nectas.csv,NECTA County Subdivisions,nectas.md; NECTA_WallMap_Mar2020.pdf,County subdivisions classified by metropolitan and micropolitan
-raw/public/population/tidycensus_alldata.csv, County Subdivisions Population Data, tidydecennialcensus_variables.csv; tidyacs_variables.csv; code for retrieval in procedure/code, Total population; elderly population; and geographic data for mapping by county subdivision in VT
+raw/public/population/tidycensus_alldata.csv, County Subdivisions Population Data, tidydecennialcensus_variables.csv; tidyacs_variables.csv; code for retrieval in procedure/code/00_population_data_tidycensus.Rmd, Total population; elderly population; and geographic data for mapping by county subdivision in VT
 raw/public/population/list3_2020.xls, NECTA county subdivisions raw, NA, Raw data from US Census Bureau on metropolitan/microplitan county subdivision classifications. Removed unnecessary columns and renamed variables then saved as nectas.csv
