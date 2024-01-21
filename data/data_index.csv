@@ -5,4 +5,4 @@ raw/public/population/tidycensus_alldata.csv, County Subdivisions Population Dat
 raw/public/population/tidycensus_alldata.gpkg, County Subdivisions Population Data geopackage, tidydecennialcensus_variables.csv; tidyacs_variables.csv; code for retrieval at procedure/code/00_population_data_tidycensus.Rmd, Same as above but different file format. 
 raw/public/population/list3_2020.xls, NECTA county subdivisions raw, Same as for other NECTA data, Raw data from US Census Bureau on metropolitan/microplitan county subdivision classifications. Removed unnecessary columns and renamed variables then saved as nectas.csv
 raw/public/pharmacy/instate_pharmacylist_vt.xlsx, Initial VT State Pharmacy List, VT_InState_Pharmacy_metadata, Contains initial list of VT retail pharmacies from VT Office of Professional Regulation
-raw/public/pharmacy/
+raw/public/pharmacy/pharmacies_final.gpkg, Final pharmacy data, pharmacies_metadata, Final list of pharmacies in study area with hours of operations and staffing data
