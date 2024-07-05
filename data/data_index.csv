@@ -6,6 +6,6 @@ raw/public/pharmacy/instate_pharmacylist_vt.xlsx,Initial VT State Pharmacy List,
 raw/public/pharmacy/pharmacies_df.gpkg,Pharmacy locations,pharmacies_metadata.md,Final list of pharmacies in study area (VT; parts of NY; MA; NH) with coordinates; addresses; hours of operations. Data with staffing will be saved in private folder; accessible upon request from OSM private folder. 
 raw/private/pharm_staffing.csv,Pharmacy staffing levels,pharm_staffing.md,List off pharmacies with staffing data and pharmacy id; will be joined to pharmacies.gpkg in analysis.
 raw/private/staffing_interpolated.csv,Pharmacy staffing levels with interpolation,staffing_interpolated_metadata.md,Final pharmacy staffing data for analysis with missing data interpolated
-raw/private/osm_roads.graphml,OSM Roads,code for retrieval at procedure/code/00_road_network.ipynb; download from https://osf.io/download/n2q73/,Road network graph derived from OpenStreetMap via OSMNX
+raw/private/osm_roads.graphml,OSM Roads,osm_roads_metadata.md; code for retrieval at procedure/code/00_road_network.ipynb,Road network graph derived from OpenStreetMap via OSMNX
 derived/public/pharm_osm_network_errors.csv,Pharmacy OSM Network Errors,,OSMID's for four dead-end one-way nodes near pharmacies that were causing routing errors.
 derived/public/pop_data.gpkg,Pop Data,see metadata for nectas and tidycensus_population,Census population data joined with NECTA micropolitan / macropolitan codes
