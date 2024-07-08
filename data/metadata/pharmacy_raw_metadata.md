@@ -9,12 +9,30 @@
 - `Data Quality`: The staffing levels were reported directly from pharmacy staff at each individual pharmacy location or regional headquarters. Therefore, the quality is unknown but is presumed to be high.
 - `Variables`:
 
-| Label | Alias | Definition | Type | Accuracy | Domain | Missing Data Value(s) | Missing Data Frequency |
-| :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
-[| pharmid | Pharmacy ID | A unique identifier given to each pharm. in study area | text | NA | VT, NY, MA, NH 1 - 117 | NA | NA |
-| week_pharm | Weekday pharmacists | Typical # pharmacists on weekday | integer | ... | 0 - 10 | NULL | Could not collect data for 15/117 pharmacies in VT. No staffing data collected for out of state pharmacies. |
-| week_tech | Weekday techs | Typical # techs on weekday | integer | ... | 0 - 10 | NULL | Could not collect data for 15/117 pharmacies in VT. No staffing data collected for out of state pharmacies. |
-| sat_pharm | Saturday pharmacists | Typical # pharmacists on Sat | integer | ... | 0 - 10 | NULL | Could not collect data for 15/117 pharmacies in VT. No staffing data collected for out of state pharmacies. |
-| sat_tech | Saturday techs | Typical # techs on Sat | integer | ... | 0 - 10 | NULL | Could not collect data for 15/117 pharmacies in VT. No staffing data collected for out of state pharmacies. |
-| sun_pharm | Sunday pharmacists | Typical # pharmacists on Sun | integer | ... | 0 - 10| NULL | Could not collect data for 15/ 117 pharmacies in VT. No staffing data collected for out of state pharmacies. |
-| sun_tech | Sunday techs | Typical # techs on Sun | integer | ... | 0 - 10| NULL | Could not collect data for 15/ 117 pharmacies in VT. No staffing data collected for out of state pharmacies. |](https://github.com/samroubin/VTPharmacy/issues/14)
+| Label | Definition | Type |
+| :--: | :--: | :--: | 
+| pharmid | unique pharmacy identifier | Text| 
+| pharmacy_name | business name | Text | 
+| type | chain, independent, grocery, department, hospital | Text | 
+| address | pharmacy street address | Text |  
+| state | state in which pharmacy is located | Text | 
+| lat | GPS coordinates. Lat | Decimal | 
+| lon | GPS coordinates. Lon | Decimal | 
+| week_open | opening time on weekdays | Integer | 
+| week_close | closing time on weekdays | Integer |
+| sat_open| opening time on Saturdays | Integer | 
+| sat_close| closing time operations on Saturdays | Integer |
+| sun_hours| opening time on Sundays | Integer | 
+| sun_hours| closing time on Sundays | Integer |
+| week_pharm| Typical # pharmacists on weekday | Integer | 
+| week_tech| Typical # pharm. techs on weekdays  | Integer | 
+| sat_pharm| Typical # pharmacists on Saturday | Integer| 
+| sat_tech| Typical # pharm. techs on Saturdays  | Integer| 
+| sun_pharm| Typical # pharmacists on Sundays | Integer | 
+| sun_tech| Typical # pharm. techs on Sundays| Integer| 
+
+
+  - `Accuracy`: We are confident in the accuracy of the pharmacy list in Vermont. Our confidence in the out-of-state retail pharmacy locations is slightly diminished since these pharmacy locations are not based on a recent dataset from the respective states. We have confidence in the quality of the data on pharmacy staffing and hours of operations for VT pharmacies since we collected the data by surveying all pharmacies. Hours of operations for non-VT pharmacies were pulled from online. The spatial accuracy of the dataset is further confirmed as we ensured that the point coordinates for the pharmacies were within the building footprint polygon on the OSM map layer in QGIS. 
+  - `Domain`:  The expected range of all of the pharmacy operational hours is from roughly 7 am to 10 pm. The expected range of pharmacists and technicians is from one to ten for weekdays, Saturdays, and Sundays. 
+  - `Missing Data Value(s)`: For any missing data on the number of pharmacists and pharmacy technicians at a given pharmacy location, the values are interpolated based on collected data for pharmacies of the same type. There is no missing data for hours of operations, as operational hours for non-surveyed out-of-state pharmacies were pulled from online. 
+  - `Missing Data Frequency`: We were able to collect staffing data for 102 of 117 pharmacies in Vermont.
