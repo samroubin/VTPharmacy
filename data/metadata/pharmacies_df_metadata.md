@@ -3,7 +3,7 @@
 - `Spatial Coverage`: Vermont and ten miles within in Vermont state border, encompassing parts of New York, Massachusetts, and New Hampshire. Canada was excluded.
 - `Temporal Coverage`: Data was collected over the course of a couple of months, but it theoretically represents a an average or typical week in the fall or early winter of 2023.
 - `Temporal Resolution`: The temporal resolution of service is hours. 
-- `Lineage`: Data extracted from pharmacies_raw.csv using the code 00_pharmacy_cleaning.Rmd . This R markdown file converted operational hours originally reported on the 24-hour clock to integers for easier analysis and extracted all non-staffing data for analysis. View process in procedure/code/00_pharmacy_cleaning.Rmd 
+- `Lineage`: Data extracted from pharmacies_raw.csv using the code 00_pharmacy_cleaning.Rmd . This R markdown file converted operational hours originally reported on the 24-hour clock to integers for easier analysis and extracted all non-staffing data for analysis. The exported .csv was then converted into a .gpkg file in QGIS. View process in procedure/code/00_pharmacy_cleaning.Rmd 
 - `Distribution`: This dataset will be made public and downloadable on a GitHub repository
 - `Constraints`: NA
 - `Data Quality`: The hours of operations were reported directly from pharmacy staff at each individual pharmacy location. Hours of operations for pharmacies that declined to be surveyed were pulled from online. 
