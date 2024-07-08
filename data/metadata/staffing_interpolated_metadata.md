@@ -8,7 +8,7 @@
 - `Lineage`: Staffing data extracted from pharmacies_raw.csv. This dataset was created using the 00_pharmacy_cleaning.Rmd, which ultimately interpolated missing staffing data and extracted a dataframe with just the staffing levels. All department store and chain grocery store pharmacies were grouped with pharmacy chains like CVS, as these had more similar staffing models. The number of pharmacists and technicians was then averaged by day of the week and used to fill-in missing data. Hospital / clinic and independent pharmacies were aggregated as they had similar staffing models. We had to aggregate since sample size was too small for each pharmacy type individually. View process in procedure/code/00_pharmacy_cleaning.Rmd . 
 - `Distribution`: This staffing data will not be made public due to the proprietary nature of this information; however, the staffing data may be available upon request.
 - `Constraints`: We have agreed not to publicly release staffing levels of the pharmacy locations due to the proprietary nature of this data for some of the larger pharmacy chains.
-- `Data Quality`: Staffing data was interpolated for fifteen of 117 pharmacies in VT. Staffing data was interpolated for all 75 out-of-state pharmacies. 
+- `Data Quality`: Staffing data was interpolated for fifteen of 117 pharmacies in VT. Staffing data was interpolated for all 75 out-of-state pharmacies. The staffing data were reported directly from pharmacy staff at each individual pharmacy location or regional headquarters. Therefore, the quality is unknown but is presumed to be high.
 - `Variables`:
 
 | Label | Definition | Type |
