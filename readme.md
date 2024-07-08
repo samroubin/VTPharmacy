@@ -36,7 +36,7 @@ This study adapts and extends the methodology used in Kang et al.'s (2020) "Rapi
 - `Spatial Resolution`: Vermont municipalities. These units are roughly the same size as census tracts, but they represent politically meaningful geographic units.
 - `Spatial Reference System`: EPSG 6589
 - `Temporal Coverage`: Data was collected in October, November, and December of 2023. The temporal extent is not explicitly determined. Pharmacies have been asked to provide their staffing levels over the period of roughly a month. The results from the study will be theoretically based on a single point in time in the fall of 2023. This is a one time measurement, and the study does not investigate change over time.
-- `Temporal Resolution`: The temporal resolution of this study varies. Final maps will represent periods of a couple of hours of a week to whole days, or an entire work week. Spatial access will be assessed and compared across specific hours of the day, between weekdays and Saturdays, weekdays and Sundays, and other combinations of these temporal units.
+- `Temporal Resolution`: The highest temporal resolution of this study is one hour. Many results and figures aggregate the temporal resolution into days of the week or common operating hours. 
 - `Funding Name`: National Science Foundation Directorate for Social, Behavioral and Economic Sciences
 - `Funding Title`: Transforming theory-building and STEM education through reproductions and replications in the geographical sciences
 - `Award info URI`: <https://www.nsf.gov/awardsearch/showAward?AWD_ID=2049837>
