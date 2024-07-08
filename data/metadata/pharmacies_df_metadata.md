@@ -1,5 +1,5 @@
 - `Title`: All non-staffing pharmacy data (pharmacies_df.gpkg)
-- `Abstract`: This dataset is primary data that was collected through surveying all VT pharmacies about their staffing levels and hours of operations. It contains information on each VT pharmacy's (117) location, hours of operations on weekdays, Saturdays, and Sundays, and the number of pharmacists and pharmacy technicians that typically work on a given day. It also includes data on the hours of operations of the 75 pharmacies within 10 miles of the VT border (NY, MA, NH). Staffing data was not collected for pharmacies outside of Vermont. Instead, staffing data was interpolated for all out-of-state pharmacies and pharmacies in Vermont for which data could not be collected. There were 192 pharmacies included in our study area in total.
+- `Abstract`: Same as pharmacies_raw.csv without staffing data. 
 - `Spatial Coverage`: Vermont and ten miles within in Vermont state border, encompassing parts of New York, Massachusetts, and New Hampshire. Canada was excluded.
 - `Temporal Coverage`: Data was collected over the course of a couple of months, but it theoretically represents a an average or typical week in the fall or early winter of 2023.
 - `Temporal Resolution`: The temporal resolution of service is hours. 
