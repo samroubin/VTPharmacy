@@ -25,7 +25,7 @@
 | sun_hours| opening time on Sundays | Integer | 
 | sun_hours| closing time on Sundays | Integer |
 
-  - `Accuracy`: We are confident in the accuracy of the pharmacy list in Vermont. Our confidence in the out-of-state retail pharmacy locations is slightly diminished since these pharmacy locations are not based on a recent dataset from the respective states. We have confidence in the quality of the data on hours of operations for VT pharmacies since we collected the data by surveying all pharmacies. Hours of operations for non-VT pharmacies were pulled from online. The spatial accuracy of the dataset is further confirmed as we ensured that the point coordinates for the pharmacies were within the building footprint polygon on the OSM map layer in QGIS. 
+  - `Accuracy`: We have confidence in the quality of the data on hours of operations for VT pharmacies since we collected the data by surveying all pharmacies. Hours of operations for non-VT pharmacies were pulled from online. The spatial accuracy of the dataset is further confirmed as we ensured that the point coordinates for the pharmacies were within the building footprint polygon on the OSM map layer in QGIS. 
   - `Domain`:  The expected range of all of the pharmacy operational hours is from roughly 7 am to 10 pm. 
   - `Missing Data Value(s)`: There is no missing data for hours of operations, as operational hours for non-surveyed out-of-state pharmacies were pulled from online. 
   - `Missing Data Frequency`: No missing data for hours of operations. 
