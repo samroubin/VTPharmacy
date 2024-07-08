@@ -11,10 +11,10 @@
 
 | Label | Alias | Definition | Type | Accuracy | Domain | Missing Data Value(s) | Missing Data Frequency |
 | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
-| pharmid | Pharmacy ID | A unique identifier given to each pharm. in study area | text | NA | VT, NY, MA, NH 1 - 117 | NA | NA |
+[| pharmid | Pharmacy ID | A unique identifier given to each pharm. in study area | text | NA | VT, NY, MA, NH 1 - 117 | NA | NA |
 | week_pharm | Weekday pharmacists | Typical # pharmacists on weekday | integer | ... | 0 - 10 | NULL | Could not collect data for 15/117 pharmacies in VT. No staffing data collected for out of state pharmacies. |
 | week_tech | Weekday techs | Typical # techs on weekday | integer | ... | 0 - 10 | NULL | Could not collect data for 15/117 pharmacies in VT. No staffing data collected for out of state pharmacies. |
 | sat_pharm | Saturday pharmacists | Typical # pharmacists on Sat | integer | ... | 0 - 10 | NULL | Could not collect data for 15/117 pharmacies in VT. No staffing data collected for out of state pharmacies. |
 | sat_tech | Saturday techs | Typical # techs on Sat | integer | ... | 0 - 10 | NULL | Could not collect data for 15/117 pharmacies in VT. No staffing data collected for out of state pharmacies. |
 | sun_pharm | Sunday pharmacists | Typical # pharmacists on Sun | integer | ... | 0 - 10| NULL | Could not collect data for 15/ 117 pharmacies in VT. No staffing data collected for out of state pharmacies. |
-| sun_tech | Sunday techs | Typical # techs on Sun | integer | ... | 0 - 10| NULL | Could not collect data for 15/ 117 pharmacies in VT. No staffing data collected for out of state pharmacies. |
+| sun_tech | Sunday techs | Typical # techs on Sun | integer | ... | 0 - 10| NULL | Could not collect data for 15/ 117 pharmacies in VT. No staffing data collected for out of state pharmacies. |](https://github.com/samroubin/VTPharmacy/issues/14)
