@@ -14,12 +14,6 @@
 | Label | Definition | Type |
 | :--: | :--: | :--: |
 | pharmid | unique pharmacy identifier | Text|
-| week_open | opening time on weekdays | Integer |
-| week_close | closing time on weekdays | Integer |
-| sat_open| opening time on Saturdays | Integer |
-| sat_close| closing time operations on Saturdays | Integer |
-| sun_hours| opening time on Sundays | Integer |
-| sun_hours| closing time on Sundays | Integer |
 | week_pharm| Typical # pharmacists on weekday | Integer |
 | week_tech| Typical # pharm. techs on weekdays  | Integer |
 | sat_pharm| Typical # pharmacists on Saturday | Integer|
