@@ -28,7 +28,7 @@
 | sun_tech| Typical # pharm. techs on Sundays| Integer|
 
 
-  - `Accuracy`: Data was interpolated for 15 of the 117 retial pharmacies in VT, and all 75 out-of-state pharmacies. Data accuracy for out-of-state pharmacies is less important since these pharmacies were just included to minimize edge effects in our study (they are less utilized by VT residents). 
+  - `Accuracy`: Data was interpolated for 15 of the 117 retail pharmacies in VT, and all 75 out-of-state pharmacies. Data accuracy for out-of-state pharmacies is less important since these pharmacies were just included to minimize edge effects in our study (they are less utilized by VT residents). 
   - `Domain`: The expected range of pharmacists and technicians is from one to ten for weekdays, Saturdays, and Sundays.
   - `Missing Data Value(s)`: For any missing data on the number of pharmacists and pharmacy technicians at a given pharmacy location, the values are interpolated based on collected data for pharmacies of the same type. There is no missing data for hours of operations, as operational hours for non-surveyed out-of-state pharmacies were pulled from online.
   - `Missing Data Frequency`: We were able to collect staffing data for 102 of 117 pharmacies in Vermont.
