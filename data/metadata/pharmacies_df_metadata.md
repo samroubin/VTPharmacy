@@ -21,9 +21,9 @@
 | week_open | opening time on weekdays | Integer | 
 | week_close | closing time on weekdays | Integer |
 | sat_open| opening time on Saturdays | Integer | 
-| sat_close| closing time operations on Saturdays | Integer |
-| sun_hours| opening time on Sundays | Integer | 
-| sun_hours| closing time on Sundays | Integer |
+| sat_close| closing time on Saturdays | Integer |
+| sun_open| opening time on Sundays | Integer | 
+| sun_close| closing time on Sundays | Integer |
 
   - `Accuracy`: We have confidence in the quality of the data on hours of operations for VT pharmacies since we collected the data by surveying all pharmacies. Hours of operations for non-VT pharmacies were pulled from online. The spatial accuracy of the dataset is further confirmed as we ensured that the point coordinates for the pharmacies were within the building footprint polygon on the OSM map layer in QGIS. 
   - `Domain`:  The expected range of all of the pharmacy operational hours is from roughly 7 am to 10 pm. 
