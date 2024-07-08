@@ -5,21 +5,15 @@
 - `Spatial Reference System`: EPSG 6589 in order to match the results maps.
 - `Temporal Coverage`: Data was collected over the course of a couple of months, but it theoretically represents an average or typical week in the fall or early winter of 2023.
 - `Temporal Resolution`: A week. Differential data was collected for weekdays, Saturdays, and Sundays of a typical week.
-- `Lineage`: Initial pharmacy list of 127 pharmacies was downloaded from the Vermont Office of Professional Regulation (https://secure.professionals.vermont.gov/prweb/PRServletCustom?UserIdentifier=LicenseLookupGuestUser) and modified to exclude no longer active pharmacies and non-retail pharmacies. 10 pharmacies on the list were removed, totaling 117 VT pharmacies.  The pharmacy locations were checked against Google Maps and a national pharmacy dataset from the Department of Homeland Security (DHS) to ensure all pharmacies in the state were included. Pharmacy locations outside of Vermont but within study area were included through querying pharmacies from OSM in QGIS, Google Maps searches, and the DHS pharmacy dataset. Newly permanently closed pharmacies were omitted from the data. Data on hours of operations and staffing were sourced through surveys and manually inputted by the authors. Staffing data was collected for 87% of pharmacies in VT, which was used to interpolate staffing for out-of-state pharmacies. This protocol was approved by the Middlebury College Institutional Review Board (#264).
-- `Distribution`: The majority of this dataset will be made public and downloadable on a GitHub repository. The staffing data will not be made public due to the proprietary nature of this information; however, the staffing data may be available upon request.
+- `Lineage`: Staffing data extracted from pharmacies_raw.csv. This dataset was created using the 00_pharmacy_cleaning.Rmd, which ultimately interpolated missing staffing data and extracted a dataframe with just the staffing levels. 
+- `Distribution`: This staffing data will not be made public due to the proprietary nature of this information; however, the staffing data may be available upon request.
 - `Constraints`: We have agreed not to publicly release staffing levels of the pharmacy locations due to the proprietary nature of this data for some of the larger pharmacy chains.
-- `Data Quality`: The initial pharmacy list was checked against the DHS dataset and visualized in GIS (satellite imagery) against OpenStreetMap to ensure the correct locations of active pharmacies. We also check hours of operations posted online against what we are told during our surveys -- hours of operations incorrectly posted online were edited to match survey responses. Staffing data was interpolated for fifteen of 117 pharmacies in VT. Staffing data was interpolated for all 75 out-of-state pharmacies. 
+- `Data Quality`: Staffing data was interpolated for fifteen of 117 pharmacies in VT. Staffing data was interpolated for all 75 out-of-state pharmacies. 
 - `Variables`:
 
 | Label | Definition | Type |
 | :--: | :--: | :--: |
 | pharmid | unique pharmacy identifier | Text|
-| pharmacy_name | business name | Text |
-| type | chain, independent, grocery, department, hospital | Text |
-| address | pharmacy street address | Text |  
-| state | state in which pharmacy is located | Text |
-| lat | GPS coordinates. Lat | Decimal |
-| lon | GPS coordinates. Lon | Decimal |
 | week_open | opening time on weekdays | Integer |
 | week_close | closing time on weekdays | Integer |
 | sat_open| opening time on Saturdays | Integer |
