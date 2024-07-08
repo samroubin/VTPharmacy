@@ -13,7 +13,7 @@
 | :--: | :--: | :--: | 
 | pharmid | unique pharmacy identifier | Text| 
 | pharmacy_name | business name | Text | 
-| type | chain, independent, grocery, department, hospital | Text | 
+| type | chain, independent | Text | 
 | address | pharmacy street address | Text |  
 | state | state in which pharmacy is located | Text | 
 | lat | GPS coordinates. Lat | Decimal | 
