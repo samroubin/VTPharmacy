@@ -78,7 +78,7 @@ The data, procedures, and results of this repository are outlined in three table
 Important local **documents** include:
 - Pre-analysis plan: [docs/report/analysis_plan.pdf](docs/report/analysis_plan.pdf)
 - Presentation: [docs/presentation/SR_AAG_2024.pptx](docs/presentation/SR_AAG_2024.pptx)
-- Study report: (in progress) [docs/report/report.pdf](docs/report/report.pdf)
+- Study report: [docs/report/analysis_report.pdf](docs/report/analysis_report.pdf) and [docs/index.html](docs/index.html)
 - Manuscript: (in progress) [docs/manuscript/manuscript.pdf](docs/manuscript/manuscript.pdf)
 
 #### Compendium reference
